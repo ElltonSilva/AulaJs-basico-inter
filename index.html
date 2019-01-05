@@ -11,11 +11,13 @@
     <button onclick="window.location.href = window.location.href">Atualizar a página</button><br><br>
 
     <div id="area">Fazer Alguma coisa</div>
-
     <button onclick="document.getElementById('area').innerHTML = prompt ('Qual é seu nome?');">Fazer a ação</button><br><br>
 
     <div id="botao">Trocar nome do botão</div>
+    <button onclick="this.innerHTML = prompt('Qual o nome do botão?');">Mudar o nome do botão</button><br><br>
 
-    <button onclick="this.innerHTML = prompt('Qual o nome do botão?');">Mudar o nome do botão</button>
+    <div id="trocar">Mudar nome</div>
+    <button onclick="trocarDiv('Elton', 33)">Trocar o nome</button>
+
 </body>
 </html>
