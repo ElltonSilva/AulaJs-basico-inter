@@ -6,8 +6,16 @@
 	<script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-    Página html do curso de javascript <br>
-    <button onclick="window.location.href = 'https://www.google.com.br/'">Ir para o site da google</button>
-    <button onclick="window.location.href = window.location.href">Atualizar a página</button>
+    Página html do curso de javascript <br><br>
+    <button onclick="window.location.href = 'https://www.google.com.br/'">Ir para o site da google</button><br><br>
+    <button onclick="window.location.href = window.location.href">Atualizar a página</button><br><br>
+
+    <div id="area">Fazer Alguma coisa</div>
+
+    <button onclick="document.getElementById('area').innerHTML = prompt ('Qual é seu nome?');">Fazer a ação</button><br><br>
+
+    <div id="botao">Trocar nome do botão</div>
+
+    <button onclick="this.innerHTML = prompt('Qual o nome do botão?');">Mudar o nome do botão</button>
 </body>
 </html>
