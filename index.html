@@ -7,6 +7,7 @@
 </head>
 <body>
     Página html do curso de javascript <br><br>
+
     <button onclick="window.location.href = 'https://www.google.com.br/'">Ir para o site da google</button><br><br>
     <button onclick="window.location.href = window.location.href">Atualizar a página</button><br><br>
 
@@ -17,7 +18,18 @@
     <button onclick="this.innerHTML = prompt('Qual o nome do botão?');">Mudar o nome do botão</button><br><br>
 
     <div id="trocar">Mudar nome</div>
-    <button onclick="trocarDiv('Elton', 33)">Trocar o nome</button>
+    <button onclick="trocarDiv('Elton', 33)">Trocar o nome</button><br><br>
+
+    
+    	<h3>Digite os ingredientes do bolo</h3>
+
+
+        <input id="ingre">
+        <button onclick="addIng()">Adicionar</button><br><br>
+
+    <ul id="lista"> 
+    	
+    </ul>
 
 </body>
 </html>
